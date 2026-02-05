@@ -61,6 +61,7 @@ Permet d'avoir des statistiques journalières, mensuelles et annuelles du site o
 - v1.1 - 27/03/2020
 - v2.0 - 08/12/2023
 - v3.0 - 01/12/2024
+- v3.1 - 05/02/2026
 
 ---
 
@@ -68,14 +69,14 @@ Permet d'avoir des statistiques journalières, mensuelles et annuelles du site o
 
 ### Fichiers racine
 
-| Fichier                      | Description                                 |
-|                              |                                             |
-| `includes/config.php`        | Configuration du script                     |
-| `includes/fonctions.php`     | Fonctions pour l'affichage des statistiques |
-| `includes/footer-script.php` | Enregistre les statistiques sur votre site  |
-| `index.php`                  | Affiche les statistiques                    |
-| `js/xhr.php`                 | Appel des stats en JS (AJAX/XHR)            |
-| `cron/jour.php`              | Vide les stats d'hier et envoie un mail le 1er du mois |
+| Fichier | Description |
+|---------|-------------|
+| `includes/config.php` | Configuration du script |
+| `includes/fonctions.php` | Fonctions pour l'affichage des statistiques |
+| `includes/footer-script.php` | Enregistre les statistiques sur votre site |
+| `index.php` | Affiche les statistiques |
+| `js/xhr.php` | Appel des stats en JS (AJAX/XHR) |
+| `cron/jour.php` | Vide les stats d'hier et envoie un mail le 1er du mois |
 
 ### Dossier `/txt/listes/`
 
