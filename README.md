@@ -47,7 +47,7 @@ Modifiez le fichier `includes/config.php` pour configurer :
 
 ## Crédits
 
-Script réalisé par Steve TENZA (c2script.com)
+Script réalisé par Steve TENZA ([c2script.com](https://www.c2script.com))
 
 ## Licence
 
