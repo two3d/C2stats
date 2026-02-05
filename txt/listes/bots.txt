@@ -1,0 +1,654 @@
+ZumBot
+ZoomBot
+Zombiebot
+ZmEu
+zgrab
+Zend_Http_Client
+ZDM
+ZaldamoSearchBot
+YOURLS
+yoozBot
+Yisou
+Yeti
+YandexWebmaster
+YandexVideoParser
+YandexVideo
+YandexVertis
+YandexSitelinks
+YandexScreenshot
+YandexRenderResourcesBot
+YandexPagechecker
+YandexNews
+YandexMobile
+YandexMetrika
+YandexMedia
+YandexImages
+YandexImageResizer
+YandexFavicons
+YandexDirectDyn
+YandexCalendar
+YandexBot
+YandexBlogs
+YandexAccessibility
+Yandex
+YaK
+YahooMailProxy
+Yahoo Link Preview
+YahooCacheSystem
+Yahoo Ad monitoring
+Yahoo! Slurp
+Yahoo
+YaDirectFetcher
+yacybot
+Y!J-ASR
+Xovi
+Xenu Link Sleuth
+Xaldon
+WP-Safe-Scanner
+wp_is_mobile
+wpbot
+Wotbox
+woorank
+wmtips
+WinHttp
+Windows-RSS-Platform
+Willow Internet
+Widget Server
+Who.is Bot
+WhatWeb
+WhatStuffWhereBot
+WellKnownBot
+WebZIP
+WebwikiBot
+Website-info.net-Robot
+webprosbot
+webkit2png
+Webglance
+webgains-bot
+WebCorp
+WebCopier
+webceo
+WebCapture
+Wayback
+Wappalyzer
+W3C_Validator
+W3C_Unicorn
+W3C_CSS_Validator_JFouffa
+W3C_CSS_Validator
+W3CLineMode
+W3C-Validator
+W3C-checklink
+vuhuvBot
+VSE
+VoilaBot
+VertexWP
+Vebidoo
+vBulletin via PHP
+vBSEO
+Validator.nu/LV
+Validator.nu
+Vagabondo
+uTorrent
+URL-follower
+UptimeRobot
+Uptimebot
+UniversalFeedParser
+undici
+um-LN
+Uipcrawler
+Uipbot
+ubermetrics
+Typhoeus
+Twingly Recon
+Turnitin
+TrendsmapResolver
+Trendiction
+Transmission
+tracemyfile
+Traackr
+Toutiao
+TinyURL
+Tiny Tiny RSS
+TinEye
+TimeTreeBot
+TikTokSpider
+ThumbShotsBot
+Thumbor
+TheWebInternetSearcher
+thesis-research-bot
+TheSafexInternetSearch
+TheSafeInternetSearch
+theoldreader
+The Knowledge AI
+Test Certificate Info
+Teoma
+Telegram
+Taringa
+t3versionsBot
+Synapse
+Symfony BrowserKit
+Swisscows Favicons
+SVN
+SurveyBot
+surf-http-client
+SurdotlyBot
+Surdotly
+StumbleUpon
+Steeler
+StatusCake
+SSTImap
+ssearch_bot
+SpyOnWeb
+Sprinklr
+Splash
+SpiderLing
+special_archiver
+Spark
+Space Bison
+Sosospider
+Sogou web
+Sogou Pic
+Socialrank.io
+SMTBot
+SmarterMail
+Slackbot-LinkExpanding
+Slackbot
+Slack-ImgProxy
+SiteTruth
+SiteSucker
+SiteExplorer
+SiteCheckerBotCrawler
+SiteAuditBot
+SimpleScraper
+SimplePie
+ShrinkTheWeb
+Short URL Checker
+ShortLinkTranslate
+shareaza
+sfFeedReader
+Seznam screenshot
+SeznamEmailProxy
+SeznamBot
+Seznam
+serpstatbot
+SERankingBacklinksBot
+SeoulBot
+SEOstats
+SeoSiteCheckup
+seoscanners
+SEOkicks
+SEOdiver
+Seobility
+SemrushBot-BM
+SemrushBot
+Semrush
+Semanticbot
+SeekportBot
+Seekport
+SEBot-WA
+Searcherxweb
+Searcherweb
+SearchAtlas
+Screenshot Bot
+Screaming Frog SEO Spider
+Screaming Frog
+Scrapy
+ScrapeheroBot
+scpitspi-rs
+ScoutJet
+Scoop.it
+Schema-Markup-Validator
+SBooksNet
+SBL-BOT
+SaaSBrowserBot
+SafeDNS
+Ryte
+Ruby
+RSiteAuditor
+RSSOwl
+Rogerbot
+Rippers
+Riddler
+RestSharp
+researchscan
+researchoftheweb
+RepoLookoutBot
+Reddit
+RecordedFuture
+ReactorNetty
+rc-crawler
+raynette
+RankFlex
+RamblerMail
+R6 FeedFetcher
+R6 CommentReader
+Qwantify
+Qwantbot
+Qualidator.com
+QQDownload
+Python-urllib
+python-requests
+python-httpx
+Python
+PycURL
+publiclibraryarchive
+PTST
+proximic
+Prlog
+PR-CY.RU
+PoeSearchBot
+Powermarks
+PostmanRuntime
+POE-Component-Client-HTTP
+PlayStore-Google
+PocketParser
+pmoz.info
+Plukkie
+PingdomTMS
+PingdomPageSpeed
+PingAdmin.ru
+Photon
+Phantom.js
+PetalBot
+PerplexityBot
+PEAR HTTP_Request
+pear.php
+PaperLi
+panscient
+Pandalytics
+paloaltonetworks
+P3P Validator
+OSSProxy
+Optimizer
+OpenWebSpider
+Open Web Analytics
+OpenLinkProfiler
+Online Domain Tools
+Omgili
+okhttp
+Offline Explorer
+OffByOne
+Nuzzel
+Nutch
+notifyninja
+node-superagent
+node-fetch
+Nmap Scripting Engine
+Nimo Software
+Nimbostratus
+Nicecrawler
+newspaper
+NewsGatorOnline
+NewsGator
+NewsFox
+NewsBlur
+NetworkingExtension
+Netvibes
+NetSurf
+NetSeer
+NetNewsWire
+netEstate NE
+Netcraft Web Server Survey
+Netcraft Web
+NetcraftSurveyAgent
+NetAPI
+Neevabot
+nbertaupete95
+Naver
+MyCrawler
+MyChUp
+My Browser
+my-tiny-bot
+mukewang
+msnbot-media
+msnbot
+MovableType
+Morfeus Fucking Scanner
+Moreover
+Mojeek
+Mobile DuckDuckGo
+Moatbot
+MJ12bot
+MJ12
+MixrankBot
+Mixrank
+MirrorDetector
+Microsoft Windows Network Diagnostics
+Microsoft URL Control
+MicrosoftPreview
+Microsoft Office Protocol Discovery
+Microsoft Office Protocol
+Microsoft Office Existence Discovery
+Microsoft Office Excel 2014
+Microsoft Data Access
+Microsoft-WebDAV
+MetaURI
+MetaJob
+MetaInspector
+MetadataScraper
+MercuryLeads
+MegaIndex
+Mediatoolkit
+Mechanize
+MBCrawler
+MAZBot
+MaxPoint
+Mattermost-Bot
+Match by Siteimprove
+Masscan
+Marketwire
+Marketing Grader
+Mappy
+Maillocals Bot
+MailChimp
+Mail.RU_Bot
+Mail.Ru
+MagpieRSS
+magpie
+l9scan
+lwp
+Lucidworks
+Lua-resty
+ltx71
+LongURL
+LivelapBot
+Livelap
+LinkWalker
+LinkupBot
+Linkpad
+Linkis
+Linkfluence
+Linkdex
+LinkCheck by Siteimprove
+linkCheck
+Lilo
+LightspeedSystemsCrawler
+LightspeedSystems
+Liferea
+libwww
+Letsearch
+Let's Encrypt
+Leikibot
+kulturarw3
+KomodiaBot
+KOCMOHABT
+keys-so-bot
+JobBoerse
+Jigsaw
+JetBrains Omea
+JetBrains
+Jersey
+Java
+James BOT
+Jakarta
+Ixquick.com
+Istella
+IrssiUrlLog
+ips-agent
+IonCrawl
+intelx.io_bot
+INTWATCH
+InternetMeasurement
+Internet-structure-research-project-bot
+infoX-WISG
+Infegy
+INetURL
+INETDEX-BOT
+Impact Radius
+ImagesiftBot
+Iframely
+Ichiro
+ICC-Crawler
+IbouBot
+ia_archiver
+IAS Crawler
+HubSpot
+HubPages
+http_requester
+HttpUnit
+httpclient
+hGo-http-client
+HggH
+Heritrix
+Hatena::UserAgent
+Hatena::Scissors
+Hatena-Mobile-Gateway
+Hatena-Favicon
+GWPImages
+GuzzleHttp
+Guzzle
+GTmetrix
+GroupHigh
+Gregarius
+grub-client
+GreenBrowser
+GrapeshotCrawler
+Grapeshot
+Grammarly
+GPTBot
+goose
+Google Wireless Transcoder
+Google Web Preview
+googleweblight
+GoogleToolbar
+Google Search Console
+Google Page Speed Insights
+GoogleOther
+Google Favicon
+Googlebot-Video
+Googlebot-Mobile
+Googlebot-Image
+GoogleBot
+Google-Structured-Data-Testing-Tool
+Google-Sitemaps
+Google-Site-Verification
+Google-SearchByImage
+Google-Read-Aloud
+Google-PageRenderer
+Google-Image
+Google-HTTP-Java-Client
+Google-Apps-Script
+Google-Adwords-DisplayAds-WebRender
+Google
+gooblog
+GomezAgent
+go-http-client
+Gluten Free
+GlobalWebSearchx
+Gigabot
+Gigablast
+GG Peek
+GetLinkInfo
+Getintent
+Genieo
+GeedoProductSearch
+GeedoBot
+Garlik
+Gaisbot
+fuelbot
+FriendlyCrawler
+FreeWebMonitoring
+FreeSafeIP.com
+FlashGet
+fidget-spinner-bot
+FeedValidator
+Feedshow
+FeedlyBot
+feedly
+Feedfetcher-Google
+FeedDemon
+FeedBurner
+FDM
+fasthttp
+FAST-WebCrawler
+FAST-Web
+Faraday
+Facebot
+expo-research-bot
+Example3
+Exabot-Thumbnails
+Exabot
+Evernote
+eventures
+ev-crawler
+Entireweb
+eMClient
+Embedly
+Embarcadero
+Elmer
+ELinks
+Elefent
+ELB-HealthChecker
+Echobox
+EasyBib AutoCite
+Easy-Thumb
+EasouSpider
+DuckDuckGo-Favicons-Bot
+DuckDuckGo-Favicons
+DuckDuckGo
+DuckDuckBot
+DuckDuck
+ds-robot
+Drupal
+DragonFly
+Download Master
+DotBot
+Dormouse
+DomainStatsBot
+Domains Project
+DomainSONOCrawler
+DomainSigma
+DomainCrawler
+DocBase
+Dispatch
+Digg Feed Fetcher
+Diffbot
+deusu.de
+Deskyobot
+deadlinkchecker
+Daumoa
+Daum
+Dataprovider
+Datagnion
+DataForSeoBot
+Darwin
+cXensebot
+Custom
+cURL
+Crisp-LinkPreview
+Crazyweb
+crawler4j
+cpp-httplib
+contxbot
+companyspotter
+Comodo SSL Checker
+cocrawler
+Cocolyzebot
+Coccoc
+Cookiebot
+CMS Crawler
+CMS-Checker
+Cloud mapping
+CloudFlare AMP
+CloudFlare-AlwaysOnline
+CloudFlare
+Cliqzbot
+Clickagy Intelligence
+ClaudeBot
+CKHttpGenerator
+Chrome-Lighthouse
+CheckSite Verification Agent
+CheckMarkNetwork
+CheckLinks
+CensysInspect
+CCBot
+CATExplorador
+Catchpoint
+Camo Asset Proxy
+CakePHP
+Bytespider
+BUbiNG
+BSbot
+BrowseX
+Browsershots
+BrokenLinkCheck
+BrandVerity
+BOT for JCE
+BorderManager
+BoardReader Favicon Fetcher
+BoardReader
+bnf.fr_bot
+Bluecoat
+BLEXBot
+Blackboard Safeassign
+bl.uk_lddc_bot
+BitSightBot
+BITS
+Bitly
+Birdcrawlerbot
+binlar
+BingWeb
+BingSapphire
+BingPreview
+bingbot
+Bing
+bidswitchbot
+BegunAdvertising
+BDFetch
+Barkrowler
+bandscraper
+Baiduspider-image
+Baiduspider
+Azureus
+axios
+AwarioBot
+AVALW-SearchBot
+asynchttp
+AspiegelBot
+asafaweb.com
+ArthurHoaro/favicon
+arquivo
+ArchiveBot
+archive.org_bot
+archive.org
+Applebot
+AppEngine-Google
+Apache HttpClient
+AnyEvent
+Amiga
+AliyunSecBot
+Amazon CloudFront
+Amazonbot
+AlphaBot
+ALittle Client
+Alignabot
+Alexa Site Audit
+alexa
+Alamofire
+aiohttp
+aiHitBot
+AhrefsBot
+AHC
+AgentName
+adstxtlab.com
+AdsTxtCrawlerTP
+AdsTxtCrawler
+AdSense
+adscanner
+AdsBot-Google-Mobile
+AdsBot-Google
+Ad Muncher
+AdminLabs
+AddThis.com
+AdBot
+Adbeat
+ActiveRefresh
+ActiveBookmark
+12345
+360Spider
+007AC9
+2ip
+1.fr
+DAP
+got
+oBot

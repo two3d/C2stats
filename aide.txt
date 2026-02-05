@@ -1,0 +1,191 @@
+-------------------------
+-- Installation du script
+-------------------------
+
+Pour faire fonctionner le script vous devez : (3 étapes)
+
+
+
+	1. Envoyer le dossier C2stats sur votre site (à la racine ou là où vous voulez, prenez soin de modifier le chemin vers C2stats au code suivant)
+	-------------------------------------
+
+
+
+	2. Mettre en place le code suivant sur toutes les fins de pages de votre site, après </html> ou juste avant
+	-------------------------------------
+
+	//DEBUT CODE C2STATS
+
+	//"define C2STATS" est une sécurité pour pouvoir inclure le fichier footer-script.php
+	define('C2STATS', true);
+	
+	//inclusion script comptage visite
+	include __DIR__ . '/C2stats/includes/footer-script.php';
+
+	//FIN CODE C2STATS
+
+
+
+	3. Programmer la tâche CRON suivante
+	------------------------------------
+
+	C2stats/cron/jour.php
+	
+	- A lancer chaque jour, à minuit ou maximum dans la première heure de la journée
+
+
+
+	4. Vous pouvez maintenant accéder aux stats via l'adresse : votresite/C2stats
+	------------------------------------
+
+
+
+Script réalisé par Steve TENZA (c2script.com), mis à disposition gratuitement.
+
+Permet d'avoir des statistiques journalières, mensuelle et annuelles du site où il est utilisé
+
+Donne des informations sur :
+----------------------------
+
+ - le total des visiteurs uniques
+ - le nombre de pages vues
+ - la moyenne de page visitées par visite
+ - les sites référant (arrivé depuis quel site)
+ - les pages qui sont partagées sur les réseaux sociaux
+ - le navigateur et le système d'exploitation utilisé
+ - les robots qui ont crawlés le site et les pages crawlées
+ - le nombre d'utilisateurs sur mobiles
+ - les pages visitées par le visiteur
+
+
+	version: 1.1, le 27/03/2020
+	version: 2.0, le 08/12/2023
+	version: 3.0, le 01/12/2024
+
+
+----------------------------------------------
+-- Infos sur les fichiers présents à la racine
+----------------------------------------------
+
+includes/config.php
+----------------------------
+
+- permet la configuration du script
+
+
+includes/fonctions.php
+----------------------------
+
+- fonctions nécessaires à l'affichage des statistiques
+
+
+includes/footer-script.php
+----------------------------
+
+- permet d'enregistrer les statistiques sur votre site, ce fichier est inclut
+
+
+index.php
+----------------------------
+
+- affiche les statistiques
+
+
+js/xhr.php
+----------------------------
+
+- appel des stats en JS (AJAX/XHR) pour les afficher sur index.php
+
+
+
+------------------------------------
+-- Infos sur le dossier /txt/listes/
+------------------------------------
+
+les fichiers txt de ce dossier contiennent des informations détaillés sur le user_agent et sont analysés ligne par ligne, de haut en bas, par le script pour en afficher les détails
+
+
+
+txt/listes/bots.txt
+----------------------------
+
+- Contient tous les bots qui peuvent être détectés
+- 1 bot/ligne, aucune ligne ne doit être vide
+- Si vous souhaitez en rajouter, le mettre sur une nouvelle ligne et faire attention qu'il ressemble pas à un déjà inscrit, si il ressemble (ex: MyBot ressemble à ThisMyBot) mettre MyBot après ThisMyBot pour qu'il soit pas confondu (la recherche se faisant de haut en bas), dans cette optique, certains sont en bas parce qu'ils ressemble à beaucoup d'autres car ils ont un nom avec très peu de lettres
+
+	Astuce :
+
+	- Mettre les robots les plus connus en haut de la liste pour optimiser le temps de recherche
+
+
+txt/listes/ignores.txt
+----------------------------
+
+- Contient tous les user_agent ignorés
+- doit être sous forme d'expression régulière, ex: ^ma chaine$, sans délimiteur, les \ doivent être échappés avec deux \ (\ => \\\)
+
+
+txt/listes/reseaux-sociaux.txt
+-------------------
+
+- Contient les réseaux sociaux les plus connus, permet de les reconnaitre et d'avoir des infos sur les pages partagées
+
+
+txt/listes/nouveaux-ua.txt
+-------------------------
+
+- Contient les nouveaux user_agent qui ne sont pas analysable car non reconnus par le script actuel
+
+
+txt/listes/nouveaux-deja-envoyes.txt
+-------------------------
+
+- permet d'enregistrer les nouveaux user_agent qui sont envoyés par mail, pour ne pas vous les renvoyer
+- Pour désactiver l'envoi du mail : includes/config.php => $C2STATS['mail'] = ''; (laisser vide)
+
+
+txt/listes/bots-website-links.txt
+-------------------------
+
+- attribut un lien à chaque bot, un lien qui est rapport avec le bot en question et qui permet d'avoir des informations à son propos
+j'ai fait cette page dans l'idée de mettre un lien cliquable sur chaque robot détecté mais ne trouvais pas utile cette fonctionnalité pour le moment, plus tard, peut-être
+
+
+
+
+cron/jour.php
+-------------------------
+- vide les stats d'hier pour enregistrer celles d'aujourd'hui
+- le script vous envoi un mail chaque 1er du mois pour vous avertir des nouveaux UA trouvés (via le fichier cron/jour.php)
+
+
+
+
+--------------------------------------
+-- Infos sur le dossier /txt/archives/
+--------------------------------------
+
+- Contient toutes les archives de statistiques, classées par année et par mois sous forme: txt/archives/[année]/[mois]/[jour]/[ici les fichiers de statistiques journalières pour chaque heure de la journée].txt
+- Chaque dossier /mois/ contient les jours déjà passés du mois, sous forme "01", "02",... et contiennent chacun des .txt de chaque heure 00.txt, 01.txt,... ces fichiers sont annalysés par le script pour être affichés en détails sur index.php
+
+
+--------------------------------------
+-- Infos sur le dossier /txt/ips/
+--------------------------------------
+
+- Chaque heure de la journée 00.txt, 01.txt,... fichiers mis à jour automatiquement dès qu'il ya une visite pour telle heure et vidés via la cron, chaque début de journée
+
+
+--------------------------------------
+POUR METTRE À ZÉRO LE SCRIPT :
+
+1. vider les logs ips :
+
+	$f = glob("txt/ips/*.txt");
+	foreach($f as $s)
+		file_put_contents($s, '');
+
+
+2. supprimer les dossiers dans txt/archives/
+
+--------------------------------------

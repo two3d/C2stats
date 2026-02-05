@@ -1,0 +1,4 @@
+# Fichiers et dossiers à ignorer par Git
+
+# Données utilisateur
+txt/archives/*

@@ -1,0 +1,4 @@
+#interdit l'accès à nos fichiers txt
+<Files "*.txt">
+deny from all
+</Files>
