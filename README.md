@@ -1,8 +1,10 @@
 # C2Stats - Script de statistiques PHP
 
-![Aperçu de C2Stats en fonctionnement](images/apercu-c2stats.png)
-
 C2Stats est un script PHP gratuit **sans base de données** et open source permettant d'avoir des statistiques journalières, mensuelles et annuelles pour votre site web.
+
+## Aperçu
+
+![Aperçu de C2Stats en fonctionnement](images/apercu-c2stats.png)
 
 ## Fonctionnalités
 
